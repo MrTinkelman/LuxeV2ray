@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vpn_hotspot">VPN Hotspot</string>
+    <string name="ip_location">IP Location</string>
+    <string name="proxy_is_running">Proxy is running</string>
+    <string name="proxy_not_running">Proxy not running</string>
+    <string name="use_system_proxy_as_next_socks_proxy">use system proxy as next socks proxy</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="open_wi_fi_settings">Open Wi-Fi Settings:</string>
+    <string name="ip_192_168_43_1">IP: 192.168.43.1</string>
+    <string name="inside_the_wi_fi_network_settings_look_for_an_option_called_proxy_or_advanced_settings_tap_on_it_and_select_manual_enter_the_proxy_hostname_and_port_number">Inside the Wi-Fi network settings, look for an option called \'Proxy\' or \'Advanced\' settings. Tap on it and select \'Manual.\' Enter the Proxy hostname and Port number:</string>
+    <string name="set_proxy_settings">Set Proxy Settings:</string>
+    <string name="under_the_wireless_amp_networ_amp_s_or_connections_section_find_and_tap_on_wi_fi_here_you_ll_see_a_list_of_available_networks_tap_the_wi_fi_network_you_re_connected_to_or_want_to_connect_to"><![CDATA[Under the \'Wireless & networ&s\' or \'Connections\' section, find and tap on \'Wi-Fi.\' Here, you\'ll see a list of available networks. Tap the Wi-Fi network you\'re connected to or want to connect to.]]></string>
+    <string name="select_wi_fi_network">Select Wi-Fi Network:</string>
+    <string name="go_to_your_android_device_s_settings_menu_depending_on_your_device_this_might_be_accessed_through_an_icon_in_the_apps_menu_or_by_pulling_down_the_notification_bar_and_tapping_the_gear_icon">Go to your Android device\'s Settings menu. Depending on your device, this might be accessed through an icon in the apps menu or by pulling down the notification bar and tapping the gear icon.</string>
+</resources>

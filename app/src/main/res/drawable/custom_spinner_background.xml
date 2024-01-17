@@ -1,0 +1,17 @@
+<!-- custom_spinner_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This is the background of the Spinner -->
+    <item>
+        <shape android:shape="rectangle">
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/navy_blue" />
+
+            <solid android:color="@color/navy_blue_alt" />
+            <!-- Add any other background customization you want -->
+        </shape>
+    </item>
+
+    <!-- You can add other layers here if needed -->
+</layer-list>

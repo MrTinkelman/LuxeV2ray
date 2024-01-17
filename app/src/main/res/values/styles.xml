@@ -1,0 +1,91 @@
+<resources>
+
+    <style name="AppThemeDayNight" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/navy_blue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorMainBg">@color/colorBg</item>
+        <item name="fontFamily">@font/wowonder</item>
+        <item name="android:popupBackground">@color/navy_blue</item>
+        <item name="android:windowBackground">@color/navy_blue</item>
+        <item name="android:textColor">@color/white</item>
+         <item name="android:statusBarColor">@color/navy_blue</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="colorMainText">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorTertiary">@color/colorWhite</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="actionOverflowMenuStyle">@style/CustomActionMenuStyle</item>
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+    </style>
+    <style name="CustomActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/navy_blue</item>
+    </style>
+    <style name="CustomActionMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <!-- Add attributes to customize the background color, text color, etc. -->
+        <!-- For example, to change the background color, use the following attribute: -->
+        <item name="android:popupBackground">@drawable/custom_action_menu_background</item>
+    </style>
+    <!-- Custom style for the Spinner -->
+    <style name="CustomSpinnerStyle">
+        <!-- Change the background color here -->
+        <item name="android:background">@drawable/custom_spinner_background</item>
+        <!-- Add any other customization you want -->
+    </style>
+    <style name="AlertDialogCustom" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/custom_dialog_background</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textColorAlertDialogListItem">@color/white</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/AlertDialogButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/AlertDialogButton</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/AlertDialogButton</item>
+        <item name="android:divider">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MainActionBar.popup" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@drawable/custom_dialog_background</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:itemBackground">@color/white</item>
+
+    </style>
+    <style name="AppThemeDayNight.NoActionBar" parent="AppThemeDayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

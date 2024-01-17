@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_main">
+        <item
+            android:id="@+id/sub_setting"
+            android:icon="@drawable/ic_subscriptions_white_24dp"
+            android:title="@string/title_sub_setting" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="@string/title_settings" />
+        <item
+                android:id="@+id/user_asset_setting"
+                android:icon="@drawable/baseline_insert_drive_file_24"
+                android:title="@string/title_user_asset_setting" />
+    </group>
+
+    <group android:id="@+id/group_id2">
+        <item
+            android:id="@+id/vpnhotspot"
+            android:icon="@mipmap/hotp"
+            android:title="@string/vpn_hotspot" />
+        <item
+            android:id="@+id/checkip"
+            android:icon="@mipmap/ipl"
+            android:title="@string/ip_location" />
+
+        <item
+            android:id="@+id/logcat"
+            android:icon="@drawable/ic_logcat_white_24dp"
+            android:title="@string/title_logcat" />
+
+    </group>
+    <group android:id="@+id/group_id4">
+        <item
+            android:id="@+id/telegram"
+            android:icon="@mipmap/tele"
+            android:title="Telegram" />
+        <item
+            android:id="@+id/fb"
+            android:icon="@drawable/facebook"
+            android:title="Facebook Group" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_feedback_white_24dp"
+            android:title="@string/about" />
+        <!-- place holder for version text at the bottom -->
+        <item
+            android:id="@+id/placeholder"
+            android:enabled="false"
+            android:title="" />
+    </group>
+</menu>

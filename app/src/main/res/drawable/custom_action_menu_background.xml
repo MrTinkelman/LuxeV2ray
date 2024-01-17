@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background of the action menu item -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@color/navy_blue_alt" />
+        </shape>
+    </item>
+
+    <!-- Customize other visual elements of the action menu item here (if needed) -->
+
+</layer-list>
