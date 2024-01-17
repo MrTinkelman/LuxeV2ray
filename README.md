@@ -14,7 +14,7 @@ LuxeV2ray is an Android app based on the popular [v2rayNG](https://github.com/2d
 
 ### Installation
 To install LuxeV2ray on your Android device, follow these steps:
-1. Download the latest APK from the [releases](https://play.google.com/store/apps/details?id=com.mrtinkelman.v2ray) section.
+1. Download the latest APK from the [Google Play Store](https://play.google.com/store/apps/details?id=com.mrtinkelman.v2ray).
 2. Open the APK file and follow the on-screen instructions to install.
 
 ## Usage
