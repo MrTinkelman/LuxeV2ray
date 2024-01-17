@@ -24,7 +24,7 @@ Provide instructions on how to use the app, highlighting any new features or ste
 Contributions to LuxeV2ray are welcome! Please refer to our [contributing guidelines](CONTRIBUTING.md) for more information.
 
 ## License
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [GPL-3.0](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Thanks to the developers of v2rayNG for the original project.
